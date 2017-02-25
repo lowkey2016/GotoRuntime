@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1887A6D71E614B8800A5786D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A6D61E614B8800A5786D /* main.m */; };
-		1887A6E21E614FA500A5786D /* NSObject+HGCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A6E11E614FA500A5786D /* NSObject+HGCRuntime.m */; };
-		1887A6E51E6154D900A5786D /* HGCUnregisteredClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A6E41E6154D900A5786D /* HGCUnregisteredClass.m */; };
-		1887A6E81E61556E00A5786D /* HGCProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A6E71E61556E00A5786D /* HGCProtocol.m */; };
-		1887A6EB1E61557A00A5786D /* HGCIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A6EA1E61557A00A5786D /* HGCIvar.m */; };
-		1887A6EE1E61558300A5786D /* HGCProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A6ED1E61558300A5786D /* HGCProperty.m */; };
-		1887A6F11E61558900A5786D /* HGCMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A6F01E61558900A5786D /* HGCMethod.m */; };
 		1887A6F51E61612D00A5786D /* DemoKVOObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A6F41E61612D00A5786D /* DemoKVOObj.m */; };
 		1887A6F81E61617000A5786D /* DemoKVOObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A6F71E61617000A5786D /* DemoKVOObserver.m */; };
-		1887A7011E617B9500A5786D /* NSObject+HGCCallMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A7001E617B9500A5786D /* NSObject+HGCCallMethod.m */; };
 		1887A7041E6180E800A5786D /* DemoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A7031E6180E800A5786D /* DemoObject.m */; };
 		1887A7081E61DD0D00A5786D /* DemoProObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A7071E61DD0C00A5786D /* DemoProObject.m */; };
+		1887A7181E61F91800A5786D /* HGCIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A70B1E61F91800A5786D /* HGCIvar.m */; };
+		1887A7191E61F91800A5786D /* HGCMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A70D1E61F91800A5786D /* HGCMethod.m */; };
+		1887A71A1E61F91800A5786D /* HGCProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A70F1E61F91800A5786D /* HGCProperty.m */; };
+		1887A71B1E61F91800A5786D /* HGCProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A7111E61F91800A5786D /* HGCProtocol.m */; };
+		1887A71C1E61F91800A5786D /* HGCUnregisteredClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A7131E61F91800A5786D /* HGCUnregisteredClass.m */; };
+		1887A71D1E61F91800A5786D /* NSObject+HGCCallMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A7151E61F91800A5786D /* NSObject+HGCCallMethod.m */; };
+		1887A71E1E61F91800A5786D /* NSObject+HGCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887A7171E61F91800A5786D /* NSObject+HGCRuntime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,29 +36,29 @@
 /* Begin PBXFileReference section */
 		1887A6D31E614B8800A5786D /* Runtime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Runtime; sourceTree = BUILT_PRODUCTS_DIR; };
 		1887A6D61E614B8800A5786D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1887A6E01E614FA500A5786D /* NSObject+HGCRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HGCRuntime.h"; sourceTree = "<group>"; };
-		1887A6E11E614FA500A5786D /* NSObject+HGCRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HGCRuntime.m"; sourceTree = "<group>"; };
-		1887A6E31E6154D900A5786D /* HGCUnregisteredClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGCUnregisteredClass.h; sourceTree = "<group>"; };
-		1887A6E41E6154D900A5786D /* HGCUnregisteredClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGCUnregisteredClass.m; sourceTree = "<group>"; };
-		1887A6E61E61556E00A5786D /* HGCProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGCProtocol.h; sourceTree = "<group>"; };
-		1887A6E71E61556E00A5786D /* HGCProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGCProtocol.m; sourceTree = "<group>"; };
-		1887A6E91E61557A00A5786D /* HGCIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGCIvar.h; sourceTree = "<group>"; };
-		1887A6EA1E61557A00A5786D /* HGCIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGCIvar.m; sourceTree = "<group>"; };
-		1887A6EC1E61558300A5786D /* HGCProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGCProperty.h; sourceTree = "<group>"; };
-		1887A6ED1E61558300A5786D /* HGCProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGCProperty.m; sourceTree = "<group>"; };
-		1887A6EF1E61558900A5786D /* HGCMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGCMethod.h; sourceTree = "<group>"; };
-		1887A6F01E61558900A5786D /* HGCMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGCMethod.m; sourceTree = "<group>"; };
 		1887A6F31E61612D00A5786D /* DemoKVOObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoKVOObj.h; sourceTree = "<group>"; };
 		1887A6F41E61612D00A5786D /* DemoKVOObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoKVOObj.m; sourceTree = "<group>"; };
 		1887A6F61E61617000A5786D /* DemoKVOObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoKVOObserver.h; sourceTree = "<group>"; };
 		1887A6F71E61617000A5786D /* DemoKVOObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoKVOObserver.m; sourceTree = "<group>"; };
-		1887A6FF1E617B9500A5786D /* NSObject+HGCCallMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HGCCallMethod.h"; sourceTree = "<group>"; };
-		1887A7001E617B9500A5786D /* NSObject+HGCCallMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HGCCallMethod.m"; sourceTree = "<group>"; };
 		1887A7021E6180E800A5786D /* DemoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoObject.h; sourceTree = "<group>"; };
 		1887A7031E6180E800A5786D /* DemoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoObject.m; sourceTree = "<group>"; };
 		1887A7051E61B84000A5786D /* DemoProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoProtocol.h; sourceTree = "<group>"; };
 		1887A7061E61DD0C00A5786D /* DemoProObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoProObject.h; sourceTree = "<group>"; };
 		1887A7071E61DD0C00A5786D /* DemoProObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoProObject.m; sourceTree = "<group>"; };
+		1887A70A1E61F91800A5786D /* HGCIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGCIvar.h; sourceTree = "<group>"; };
+		1887A70B1E61F91800A5786D /* HGCIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGCIvar.m; sourceTree = "<group>"; };
+		1887A70C1E61F91800A5786D /* HGCMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGCMethod.h; sourceTree = "<group>"; };
+		1887A70D1E61F91800A5786D /* HGCMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGCMethod.m; sourceTree = "<group>"; };
+		1887A70E1E61F91800A5786D /* HGCProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGCProperty.h; sourceTree = "<group>"; };
+		1887A70F1E61F91800A5786D /* HGCProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGCProperty.m; sourceTree = "<group>"; };
+		1887A7101E61F91800A5786D /* HGCProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGCProtocol.h; sourceTree = "<group>"; };
+		1887A7111E61F91800A5786D /* HGCProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGCProtocol.m; sourceTree = "<group>"; };
+		1887A7121E61F91800A5786D /* HGCUnregisteredClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGCUnregisteredClass.h; sourceTree = "<group>"; };
+		1887A7131E61F91800A5786D /* HGCUnregisteredClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGCUnregisteredClass.m; sourceTree = "<group>"; };
+		1887A7141E61F91800A5786D /* NSObject+HGCCallMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HGCCallMethod.h"; sourceTree = "<group>"; };
+		1887A7151E61F91800A5786D /* NSObject+HGCCallMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HGCCallMethod.m"; sourceTree = "<group>"; };
+		1887A7161E61F91800A5786D /* NSObject+HGCRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HGCRuntime.h"; sourceTree = "<group>"; };
+		1887A7171E61F91800A5786D /* NSObject+HGCRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HGCRuntime.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,22 +91,9 @@
 		1887A6D51E614B8800A5786D /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
+				1887A7091E61F91800A5786D /* HGCRuntime */,
 				1887A6F21E61611500A5786D /* Demo */,
 				1887A6D61E614B8800A5786D /* main.m */,
-				1887A6E01E614FA500A5786D /* NSObject+HGCRuntime.h */,
-				1887A6E11E614FA500A5786D /* NSObject+HGCRuntime.m */,
-				1887A6E31E6154D900A5786D /* HGCUnregisteredClass.h */,
-				1887A6E41E6154D900A5786D /* HGCUnregisteredClass.m */,
-				1887A6EF1E61558900A5786D /* HGCMethod.h */,
-				1887A6F01E61558900A5786D /* HGCMethod.m */,
-				1887A6FF1E617B9500A5786D /* NSObject+HGCCallMethod.h */,
-				1887A7001E617B9500A5786D /* NSObject+HGCCallMethod.m */,
-				1887A6E61E61556E00A5786D /* HGCProtocol.h */,
-				1887A6E71E61556E00A5786D /* HGCProtocol.m */,
-				1887A6E91E61557A00A5786D /* HGCIvar.h */,
-				1887A6EA1E61557A00A5786D /* HGCIvar.m */,
-				1887A6EC1E61558300A5786D /* HGCProperty.h */,
-				1887A6ED1E61558300A5786D /* HGCProperty.m */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -125,6 +112,27 @@
 				1887A7071E61DD0C00A5786D /* DemoProObject.m */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		1887A7091E61F91800A5786D /* HGCRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				1887A7161E61F91800A5786D /* NSObject+HGCRuntime.h */,
+				1887A7171E61F91800A5786D /* NSObject+HGCRuntime.m */,
+				1887A7121E61F91800A5786D /* HGCUnregisteredClass.h */,
+				1887A7131E61F91800A5786D /* HGCUnregisteredClass.m */,
+				1887A70C1E61F91800A5786D /* HGCMethod.h */,
+				1887A70D1E61F91800A5786D /* HGCMethod.m */,
+				1887A7141E61F91800A5786D /* NSObject+HGCCallMethod.h */,
+				1887A7151E61F91800A5786D /* NSObject+HGCCallMethod.m */,
+				1887A7101E61F91800A5786D /* HGCProtocol.h */,
+				1887A7111E61F91800A5786D /* HGCProtocol.m */,
+				1887A70A1E61F91800A5786D /* HGCIvar.h */,
+				1887A70B1E61F91800A5786D /* HGCIvar.m */,
+				1887A70E1E61F91800A5786D /* HGCProperty.h */,
+				1887A70F1E61F91800A5786D /* HGCProperty.m */,
+			);
+			path = HGCRuntime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,18 +193,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1887A6F11E61558900A5786D /* HGCMethod.m in Sources */,
+				1887A7191E61F91800A5786D /* HGCMethod.m in Sources */,
+				1887A7181E61F91800A5786D /* HGCIvar.m in Sources */,
+				1887A71B1E61F91800A5786D /* HGCProtocol.m in Sources */,
 				1887A6F81E61617000A5786D /* DemoKVOObserver.m in Sources */,
-				1887A6E81E61556E00A5786D /* HGCProtocol.m in Sources */,
+				1887A71C1E61F91800A5786D /* HGCUnregisteredClass.m in Sources */,
 				1887A6D71E614B8800A5786D /* main.m in Sources */,
 				1887A7041E6180E800A5786D /* DemoObject.m in Sources */,
-				1887A6E51E6154D900A5786D /* HGCUnregisteredClass.m in Sources */,
-				1887A6EB1E61557A00A5786D /* HGCIvar.m in Sources */,
 				1887A7081E61DD0D00A5786D /* DemoProObject.m in Sources */,
-				1887A6E21E614FA500A5786D /* NSObject+HGCRuntime.m in Sources */,
-				1887A6EE1E61558300A5786D /* HGCProperty.m in Sources */,
-				1887A7011E617B9500A5786D /* NSObject+HGCCallMethod.m in Sources */,
 				1887A6F51E61612D00A5786D /* DemoKVOObj.m in Sources */,
+				1887A71E1E61F91800A5786D /* NSObject+HGCRuntime.m in Sources */,
+				1887A71A1E61F91800A5786D /* HGCProperty.m in Sources */,
+				1887A71D1E61F91800A5786D /* NSObject+HGCCallMethod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +335,7 @@
 				1887A6DC1E614B8800A5786D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
